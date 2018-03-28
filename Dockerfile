@@ -40,6 +40,7 @@ bokeh \
 pandas \
 plotly \
 scrapy \
+beautifulsoup4 \
 dill' && \
 conda install --yes $conda_libs
 
@@ -57,6 +58,8 @@ unidecode \
 geopandas' \
 && pip install --upgrade $pip_libs \
 && pip install --quiet 'git+https://github.com/esafak/mca'
+
+
 
 USER $NB_USER
 WORKDIR $HOME
