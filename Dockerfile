@@ -57,7 +57,10 @@ scikit-image \
 unidecode \
 geopandas \
 imblearn \
-graphviz' \
+graphviz \
+gensim \
+pyLDAvis \
+textblob ' \
 && pip install --upgrade $pip_libs \
 && pip install --quiet 'git+https://github.com/esafak/mca' 
 
