@@ -55,10 +55,11 @@ selenium \
 joblib \
 scikit-image \
 unidecode \
-geopandas' \
+geopandas \
+imblearn \
+graphviz' \
 && pip install --upgrade $pip_libs \
-&& pip install --quiet 'git+https://github.com/esafak/mca'
-
+&& pip install --quiet 'git+https://github.com/esafak/mca' 
 
 
 USER $NB_USER
