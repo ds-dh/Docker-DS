@@ -41,6 +41,7 @@ pandas \
 plotly \
 scrapy \
 beautifulsoup4 \
+pydotplus \
 dill' && \
 conda install --yes $conda_libs
 
